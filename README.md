@@ -121,24 +121,3 @@
   
   ## 🔮 展望
   项目展现了从底层模型训练到上层全栈应用开发的完整能力。未来期待结合时序上下文建模与 LLM 协同决策等 SOTA 技术，并将本系统应用于具身智能等更广阔的领域。
-
-
-
-```
-## 🚀 快速开始 (复现指南)
-
-为了让本项目能够顺利运行，你需要配置好完整的全栈环境并下载预训练的多模态模型权重。
-
-### 1. 环境准备
-* [cite_start]**后端**: Python 3.10+ 
-* **前端**: Node.js (建议 v16+ 版本)
-* **硬件**: 推荐使用配备 NVIDIA GPU (支持 CUDA) 或 Apple Silicon (Mac M系列芯片) 的设备以加速推理。无 GPU 环境亦可运行，但推理延迟会增加。
-
-### 2. 克隆项目
-```bash
-git clone [https://github.com/你的用户名/MMSR_LLM_Integration_Dev.git](https://github.com/你的用户名/MMSR_LLM_Integration_Dev.git)
-cd MMSR_LLM_Integration_Dev
-```
-
-*(注意：请将上面的 `你的用户名` 替换为你真实的 GitHub 用户名)*
-
