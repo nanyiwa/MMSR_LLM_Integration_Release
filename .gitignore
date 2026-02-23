@@ -1,0 +1,21 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 依赖环境
+venv/
+.env
+
+# 临时文件与上传记录
+backend/uploads/
+data/samples/
+
+# 模型权重文件 
+weights/**/*.pth
+weights/**/*.safetensors
+weights/**/*.bin
+
+# 前端依赖与构建产物
+frontend/node_modules/
+frontend/dist/

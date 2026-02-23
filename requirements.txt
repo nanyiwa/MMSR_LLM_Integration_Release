@@ -1,0 +1,43 @@
+# ==========================================
+# 1. 核心深度学习框架
+# ==========================================
+# RTX 50系显卡需手动安装 Nightly 版 PyTorch，此处仅做声明
+torch>=2.0.0
+torchvision
+torchaudio
+
+# Windows 下 DeepFace 依赖
+tensorflow==2.15.0
+tf-keras==2.15.0
+
+# ==========================================
+# 2. 音频与特征处理
+# ==========================================
+librosa>=0.10.0
+soundfile>=0.12.1
+numpy>=1.22.0
+sentencepiece
+protobuf
+scikit-learn
+pandas
+scipy
+
+# ==========================================
+# 3. 核心模型库 (NLP & CV)
+# ==========================================
+transformers
+accelerate
+datasets
+deepface
+opencv-python-headless
+moviepy
+Pillow
+
+# ==========================================
+# 4. 后端 Web 框架
+# ==========================================
+fastapi
+uvicorn
+python-multipart
+deep-translator
+openai
